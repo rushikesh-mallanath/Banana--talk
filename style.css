@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    margin: auto;
+}
+
 textarea{
     width: 40rem;
     margin: 1rem;
@@ -9,9 +15,7 @@ textarea{
 }
 .outputtxt{
     padding: 1rem;
-    padding-bottom: 0%;
-    border: 0ch;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 #output{
@@ -32,6 +36,7 @@ textarea{
 
 .mainbody{
     text-align: center;
+    padding: 2rem;
 }
 
 #click-here{
@@ -39,11 +44,26 @@ textarea{
     background-color:yellow ;
     font-size: medium;
     font-weight:bold;
+    padding-top: 0.5rem;
 }
 
 .end{
     background-color:yellow ;
     text-align: center;
     padding: 1.5rem;
-    padding-top: 5rem;
+    padding-top: 3rem;
+    font-size: medium;
+}
+
+.endtext{
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.opbox{
+    padding-bottom: 2rem;
+}
+
+.one{
+    padding: 1rem;
 }
